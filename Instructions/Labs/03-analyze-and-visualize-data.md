@@ -30,8 +30,7 @@ You need:
 1. Save the workbook to OneDrive as `Quarterly Sales Analysis`.
 1. Select the Copilot icon to open the Copilot pane, then select **Edit with Copilot** near the bottom of the pane to turn on Edit with Copilot mode.
 
-> [!IMPORTANT]
-> Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range. Keep **Edit with Copilot** turned on for the rest of this exercise—with it active, Copilot applies changes, such as new sheets and charts, directly to your workbook instead of asking you to add them.
+> **Important**: Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range. Keep **Edit with Copilot** turned on for the rest of this exercise—with it active, Copilot applies changes, such as new sheets and charts, directly to your workbook instead of asking you to add them.
 
 ## Find trends with Copilot in Excel
 
@@ -63,8 +62,7 @@ The dataset includes a column of written customer feedback. Instead of reading e
 
 1. Review the new labeled column Copilot inserts.
 
-> [!TIP]
-> If the themes feel too broad, refine your prompt to focus on a specific product or region, such as "Identify themes in feedback for the SummitPeak Backpack only."
+> **Tip**: If the themes feel too broad, refine your prompt to focus on a specific product or region, such as "Identify themes in feedback for the SummitPeak Backpack only."
 
 ## Generate a chart
 

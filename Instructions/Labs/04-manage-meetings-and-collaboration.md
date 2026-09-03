@@ -55,8 +55,7 @@ Now you'll run the meeting you just scheduled and see how Copilot captures what 
 
 1. End the meeting.
 
-> [!NOTE]
-> Copilot requires a saved transcript to provide full meeting insights. If your organization's policy doesn't allow transcription, you can still complete the remaining tasks using the sample update above as reference text.
+> **Note**: Copilot requires a saved transcript to provide full meeting insights. If your organization's policy doesn't allow transcription, you can still complete the remaining tasks using the sample update above as reference text.
 
 ## Review the meeting recap
 
@@ -97,8 +96,8 @@ Finally, you'll bring your meeting recap and project data together in one place 
 1. Name the notebook `LaunchPad Project Notebook`.
 1. Under **Add references**, search for your LaunchPad Project Check-In meeting and add it if it appears. Also add the `Quarterly Sales Analysis` workbook from an earlier exercise, if you have it saved to OneDrive.
 
-> [!NOTE]
-> A meeting may not appear as a searchable reference if it was not recorded. If you don't see it in the search results, try searching for the meeting chat instead and add that as a reference. Otherwise, continue with just the workbook, or add the meeting recap by pasting its content directly into the notebook after it's created.
+> **Note**: A meeting may not appear as a searchable reference if it was not recorded. If you don't see it in the search results, try searching for the meeting chat instead and add that as a reference. Otherwise, continue with just the workbook, or add the meeting recap by pasting its content directly into the notebook after it's created.
+
 1. Select **Create**.
 1. In the notebook's chat box, enter the following prompt:
 

@@ -15,11 +15,9 @@ In this exercise, you use Microsoft Copilot to draft a client case study from a 
 
 This exercise should take approximately **20** minutes to complete.
 
-> [!TIP]
-> This exercise is about getting comfortable using Copilot, not following steps exactly. If you have a real document, presentation, or email you'd rather work with, use that instead of the Northwind Traders example. You're also encouraged to modify the example prompts or try your own instead of typing them exactly as written.
+> **Tip**: This exercise is about getting comfortable using Copilot, not following steps exactly. If you have a real document, presentation, or email you'd rather work with, use that instead of the Northwind Traders example. You're also encouraged to modify the example prompts or try your own instead of typing them exactly as written.
 
-> [!NOTE]
-> Some Copilot experiences apply changes directly to your document or presentation instead of showing a separate button to insert or add them. If a step doesn't show an expected button, check your document or presentation first, since Copilot may have already made the change for you.
+> **Note**: Some Copilot experiences apply changes directly to your document or presentation instead of showing a separate button to insert or add them. If a step doesn't show an expected button, check your document or presentation first, since Copilot may have already made the change for you.
 
 ## Before you start
 
@@ -48,8 +46,7 @@ You're a marketing coordinator, and your manager asked you to write a short case
 
     `Rewrite this paragraph in a more confident, client-facing tone.`
 
-> [!TIP]
-> If a response feels too generic, add more detail to your prompt, such as the customer's industry, size, or specific pain points.
+> **Tip**: If a response feels too generic, add more detail to your prompt, such as the customer's industry, size, or specific pain points.
 
 1. Once you're happy with the draft, save the document as `Northwind Case Study`.
 
@@ -63,8 +60,7 @@ Your manager also wants a sentence or two about broader industry trends to stren
 
     `Research current trends in AI-powered inventory forecasting for retail companies. Summarize the top three trends with supporting statistics.`
 
-> [!NOTE]
-> The Researcher agent may ask a clarifying question before it starts, such as which industry or region to focus on. Answer the questions to help it narrow the scope of its research.
+> **Note**: The Researcher agent may ask a clarifying question before it starts, such as which industry or region to focus on. Answer the questions to help it narrow the scope of its research.
 
 1. Review the structured report the Researcher agent returns, including any citations.
 1. Ask a follow-up question to narrow the scope:
@@ -89,8 +85,7 @@ Leadership wants a short slide deck version of the case study for an upcoming me
 
     `Create a presentation from /Northwind Case Study with slides for Introduction, Challenge, Solution, and Results.`
 
-> [!NOTE]
-> Copilot may ask a clarifying question before it builds the presentation, such as how many slides you want or how it should look and feel. Answer the questoins to help it build a presentation that fits your needs.
+> **Note**: Copilot may ask a clarifying question before it builds the presentation, such as how many slides you want or how it should look and feel. Answer the questions to help it build a presentation that fits your needs.
 
 1. Review the generated slides.
 1. Refine the content with a follow-up prompt:

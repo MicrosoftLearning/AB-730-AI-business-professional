@@ -15,8 +15,7 @@ Imagine you're a business operations associate at a mid-sized consulting firm. Y
 
 The tasks in this lab will guide you on how to navigate and prompt in Microsoft 365 Copilot Chat. To fully complete this lab, you need a Microsoft 365 subscription.
 
-> [!NOTE]
-> These tasks are designed specifically for use with **web mode** in Microsoft 365 Copilot Chat. If you have a Microsoft 365 Copilot license, make sure you **manually switch to web mode** when you open Copilot Chat, as it may default to work mode. Using **web mode** ensures the prompts behave as intended and source information from public web content.
+> **Note**: These tasks are designed specifically for use with **web mode** in Microsoft 365 Copilot Chat. If you have a Microsoft 365 Copilot license, make sure you **manually switch to web mode** when you open Copilot Chat, as it may default to work mode. Using **web mode** ensures the prompts behave as intended and source information from public web content.
 
 ## Before you start
 
@@ -46,9 +45,9 @@ In this task, you’ll explore how Copilot Chat can help you quickly identify ke
 
 1. Enter this prompt in the prompt box at the bottom of the Copilot Chat:
 
-    +++What are the top three innovation trends in [your industry] for 2025 and how can they shape the agenda for a client summit?+++
-   
-   **NOTE:** Replace [industry] with the industry of your choosing.
+    `What are the top three innovation trends in [your industry] for 2025 and how can they shape the agenda for a client summit?`
+
+    > **Note**: Replace [industry] with the industry of your choosing.
 
 1. Select **Send (arrow icon)** on bottom right of the prompt box or select **Enter** on your keyboard. 
 
@@ -60,13 +59,13 @@ Building on the trends you just researched, use Copilot to brainstorm engaging a
 
 1. In the same chat with Copilot, enter this prompt:
 
-    +++Based on those trends, suggest 5 engaging session titles and write short descriptions for a client innovation summit.+++
+    `Based on those trends, suggest 5 engaging session titles and write short descriptions for a client innovation summit.`
 
 1. Select **Send**, review the information provided by Copilot and if needed, refine the prompt.
 
 1. Enter this follow-up prompt:
 
-    +++Make the descriptions more compelling by using an energizing and professional tone.+++
+    `Make the descriptions more compelling by using an energizing and professional tone.`
 
 1. Select **Send**, review the information provided by Copilot and if needed, refine the prompt.
 
@@ -76,15 +75,15 @@ Copilot Chat can help you quickly convert text-based ideas into visual content. 
 
 1. In the same chat with Copilot, enter this prompt:
 
-   +++Create an agenda timeline for a 1-day summit focused on [trend] with an introduction, closing, sessions at 9:00 AM, 11:00 AM, 1:30 PM, and 3:00 PM, two mini breaks, and an hour break for lunch in a table format.+++
+   `Create an agenda timeline for a 1-day summit focused on [trend] with an introduction, closing, sessions at 9:00 AM, 11:00 AM, 1:30 PM, and 3:00 PM, two mini breaks, and an hour break for lunch in a table format.`
 
-   **NOTE:** Replace [trends] with one of the trends listed in Task 1.
+   > **Note**: Replace [trends] with one of the trends listed in Task 1.
 
 1. Select **Send**, review the information provided by Copilot and if needed, refine the prompt.
 
 1. Enter this follow-up prompt:
 
-   +++Create a simple and modern logo for this client innovation summit.+++
+   `Create a simple and modern logo for this client innovation summit.`
 
 1. Select **Send**, review the image provided by Copilot and if needed, refine the prompt.
 
@@ -94,19 +93,19 @@ Now that you’ve outlined the structure and ideas for your event, use Copilot C
 
 1. In the same chat with Copilot, enter this prompt:
 
-   +++Create a 1-page planning brief for this client innovation summit that includes: goals, audience, session themes, and key planning milestones.+++
-   
+   `Create a 1-page planning brief for this client innovation summit that includes: goals, audience, session themes, and key planning milestones.`
+
 1. Select **Send**, review the information provided by Copilot and if needed, refine the prompt.
 
 1. Enter this follow-up prompt:
 
-   +++Add a section summarizing anticipated outcomes and success metrics for the event.+++
+   `Add a section summarizing anticipated outcomes and success metrics for the event.`
 
 1. Select **Send**, review the information provided by Copilot and if needed, refine the prompt.
 
 1. Next, ask Copilot to create a Word document from this information, enter this prompt:
 
-   +++Create a Word document of this planning brief.+++
+   `Create a Word document of this planning brief.`
 
 1. Open the generated **Word** document.
 
@@ -132,7 +131,7 @@ In this task, you’ll upload the planning brief from Task 4 and have Copilot su
 
 1. Continue in Copilot Chat, enter this prompt and upload the file you created in Task 4: 
 
-    +++Summarize the key points from this planning brief into only 5 condensed bullet points:+++
+    `Summarize the key points from this planning brief into only 5 condensed bullet points:`
 
 1. Select **Add a file (paper clip icon)** on the bottom right corner of the prompt box to open the File Explorer dialogue.
 
@@ -146,7 +145,7 @@ In this task, you’ll upload the planning brief from Task 4 and have Copilot su
 
 1. Enter this follow-up prompt:
 
-    +++Write a follow-up email to the planning team with these highlights and the next step.+++
+    `Write a follow-up email to the planning team with these highlights and the next step.`
 
 1. Select **Send**, review the information provided by Copilot and if needed, refine the prompt.
 
@@ -169,8 +168,8 @@ Turn the email draft from Task 5 into a collaborative workspace using Copilot Pa
 
 In the same chat with Copilot, enter this prompt:
 
-+++Create a checklist of what I learned today using Copilot Chat and how I can apply it to my [role].+++
+`Create a checklist of what I learned today using Copilot Chat and how I can apply it to my [role].`
 
-**NOTE:** Replace [role] with your role.
+> **Note**: Replace [role] with your role.
 
 **End of Lab**
