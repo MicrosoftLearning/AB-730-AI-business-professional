@@ -11,9 +11,20 @@ lab:
 
 # Analyze and visualize data with Microsoft Copilot
 
+## Scenario
+
 In this exercise, you use Microsoft Copilot to analyze a quarterly sales dataset. You use Copilot in Excel to find trends, categorize customer feedback, and generate a chart, then use the Analyst agent to produce a deeper, shareable report from the same data.
 
+By the end of this exercise, you'll be able to:
+
+- Use Copilot in Excel to summarize trends and generate charts from a dataset.
+- Analyze a text column for themes and sentiment using Copilot.
+- Build a formula in natural language instead of writing it yourself.
+- Use the Analyst agent to produce a deeper, shareable report from the same data.
+
 This exercise should take approximately **20** minutes to complete.
+
+> **Tip**: This exercise is about getting comfortable using Copilot in Excel, not following steps exactly. You're encouraged to try your own prompts instead of typing the examples exactly as written. If you'd rather use your own dataset, keep in mind the example prompts reference this exercise's column names (Region, Product, Quarter, UnitsSold, Revenue, CustomerFeedback), so you'll need to adjust them to match your data.
 
 ## Before you start
 
@@ -32,7 +43,7 @@ You need:
 
 > **Important**: Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range. Keep **Edit with Copilot** turned on for the rest of this exercise—with it active, Copilot applies changes, such as new sheets and charts, directly to your workbook instead of asking you to add them.
 
-## Find trends with Copilot in Excel
+## Task 1: Find trends with Copilot in Excel
 
 Your manager asked you to identify how sales are trending across regions and products before a leadership review.
 
@@ -47,7 +58,7 @@ Your manager asked you to identify how sales are trending across regions and pro
 
 1. Review the comparison Copilot generates. Copilot adds the product comparison to a new sheet automatically.
 
-## Analyze customer feedback
+## Task 2: Analyze customer feedback
 
 The dataset includes a column of written customer feedback. Instead of reading each comment individually, you'll ask Copilot to identify recurring themes.
 
@@ -64,7 +75,7 @@ The dataset includes a column of written customer feedback. Instead of reading e
 
 > **Tip**: If the themes feel too broad, refine your prompt to focus on a specific product or region, such as "Identify themes in feedback for the SummitPeak Backpack only."
 
-## Generate a chart
+## Task 3: Generate a chart
 
 Leadership wants a visual that's easy to scan during the review meeting.
 
@@ -79,7 +90,7 @@ Leadership wants a visual that's easy to scan during the review meeting.
 
 1. Review the chart. Copilot adds it to your workbook automatically since Edit with Copilot is active.
 
-## Build a formula with Copilot
+## Task 4: Build a formula with Copilot
 
 You want to calculate the average revenue per unit sold for each row, without writing the formula yourself.
 
@@ -90,7 +101,7 @@ You want to calculate the average revenue per unit sold for each row, without wr
 
 1. Review the column. Copilot adds the formula for every row automatically since Edit with Copilot is active.
 
-## Generate a deeper report with the Analyst agent
+## Task 5: Generate a deeper report with the Analyst agent
 
 Your manager also wants a polished report that goes beyond a quick summary, including trends and recommendations you can share with the wider team.
 
@@ -110,4 +121,6 @@ Your manager also wants a polished report that goes beyond a quick summary, incl
 
     `Summarize these findings into three bullet points for a leadership slide.`
 
-You've used Copilot in Excel to explore and visualize a dataset, and the Analyst agent to turn that same data into a deeper, shareable report, all without writing a single formula from scratch.
+## Summary
+
+In this exercise, you used Copilot in Excel to explore and visualize a dataset, and the Analyst agent to turn that same data into a deeper, shareable report, all without writing a single formula from scratch. You practiced finding trends, analyzing text-based feedback, generating and refining charts, building formulas with natural language, and producing an audience-ready summary of your findings.

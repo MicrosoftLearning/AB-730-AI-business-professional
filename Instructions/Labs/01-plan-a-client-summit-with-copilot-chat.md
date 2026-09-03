@@ -11,15 +11,32 @@ lab:
 
 # Plan a client summit with Microsoft 365 Copilot Chat
 
-Imagine you're a business operations associate at a mid-sized consulting firm. Your manager has asked you to lead planning for an upcoming Client Innovation Summit. You’ll use Microsoft 365 Copilot Chat to gather insights, generate ideas, visualize the schedule, draft a planning document, summarize it, and collaborate with your colleagues. 
+## Scenario
 
-The tasks in this lab will guide you on how to navigate and prompt in Microsoft 365 Copilot Chat. To fully complete this lab, you need a Microsoft 365 subscription.
+Imagine you're a business operations associate at a mid-sized consulting firm. Your manager has asked you to lead planning for an upcoming Client Innovation Summit. You’ll use Microsoft Copilot Chat to gather insights, generate ideas, visualize the schedule, draft a planning document, summarize it, and collaborate with your colleagues. 
+
+By the end of this exercise, you'll be able to:
+
+- Research industry trends and brainstorm ideas using Copilot Chat.
+- Visualize an agenda and generate an image using Copilot Chat.
+- Draft a planning document and export it to a file.
+- Summarize an uploaded file and draft a follow-up email.
+- Collaborate on a shared page using Copilot Pages.
+
+This exercise should take approximately **30** minutes to complete.
+
+> **Tip**: This exercise is about getting comfortable using Copilot Chat, not following steps exactly. If you have a real event or project you'd rather plan, use that instead of the Client Innovation Summit example. You're also encouraged to modify the example prompts or try your own instead of typing them exactly as written.
 
 > **Note**: These tasks are designed specifically for use with **web mode** in Microsoft 365 Copilot Chat. If you have a Microsoft 365 Copilot license, make sure you **manually switch to web mode** when you open Copilot Chat, as it may default to work mode. Using **web mode** ensures the prompts behave as intended and source information from public web content.
 
 ## Before you start
 
-Before you can start this lab, you'll need to log into your virtual machine and launch the Microsoft 365 Copilot Chat web app. Follow the steps below to get started: 
+You need:
+
+- A Microsoft 365 subscription (credentials provided by your tenant provider for this exercise).
+- Access to a virtual machine provided by your tenant provider.
+
+To get started, log into your virtual machine and launch the Microsoft 365 Copilot Chat web app:
 
 1. Log into the virtual machine provided by your tenant provider as the local **Administrator** account with the password `Pa55w.rd`.
    
@@ -33,11 +50,11 @@ Before you can start this lab, you'll need to log into your virtual machine and 
    
 1. If prompted to **Stay signed in?**, select the **Don't show this again** checkbox, then select **Yes**.
    
-1. If prompted to **Unlock Copilot Chat in Microsoft 365 Apps - Add Copilot Chat to Microsoft 365 Copilot app, Teams and Outlook for easy access**, feel free to select **Skip for now** or **Add Copilot**, as either action does not have any effect on this lab exercise.
+1. If prompted to **Unlock Copilot Chat in Microsoft 365 Apps - Add Copilot Chat to Microsoft 365 Copilot app, Teams and Outlook for easy access**, feel free to select **Skip for now** or **Add Copilot**, as either action does not have any effect on this exercise.
    
 1. The Microsoft 365 Copilot Chat web app should launch, if not, select the **Copilot icon** on the left navigation menu to open Copilot Chat.
 
-You are ready to begin Task 1. 
+You're ready to begin Task 1.
 
 ## Task 1: Summarize industry trends for event planning
 
@@ -53,7 +70,7 @@ In this task, you’ll explore how Copilot Chat can help you quickly identify ke
 
 1. Review the information provided by Copilot and if needed, refine the prompt.
 
-## Task 2: Brainstorm and draft session ideas 
+## Task 2: Brainstorm and draft session ideas
 
 Building on the trends you just researched, use Copilot to brainstorm engaging and relevant session titles and descriptions. This helps you transform raw insights into concrete agenda items that can drive value for event attendees.
 
@@ -123,7 +140,7 @@ Now that you’ve outlined the structure and ideas for your event, use Copilot C
 
 1.  Select **Save**, then **close** out of your document.
 
-1. Navigate back to your Copilot Chat conversation to complete task 5.
+1. Navigate back to your Copilot Chat conversation to complete Task 5.
 
 ## Task 5: Analyze and generate content from a file
 
@@ -164,7 +181,7 @@ Turn the email draft from Task 5 into a collaborative workspace using Copilot Pa
     - **@mention** a colleague (or simulate this) and grant them access by selecting **Share and notify** in the message that pops up when adding their name.
     - Optionally, share your page by selecting the **Share** icon at the top right of the page and selecting one of the two options to copy a link.
 
-## Optional Wrap-Up Task: Review and Reflect
+## Optional Task 7: Review and reflect
 
 In the same chat with Copilot, enter this prompt:
 
@@ -172,4 +189,6 @@ In the same chat with Copilot, enter this prompt:
 
 > **Note**: Replace [role] with your role.
 
-**End of Lab**
+## Summary
+
+In this exercise, you used Microsoft 365 Copilot Chat to research industry trends, brainstorm session ideas, visualize an agenda timeline, generate a logo, draft and export a planning document, summarize a file into key points, draft a follow-up email, and collaborate on a shared page with Copilot Pages. You practiced navigating between different Copilot experiences and refining prompts to move a project from initial research through to a shareable output.

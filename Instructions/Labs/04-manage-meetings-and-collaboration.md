@@ -11,9 +11,20 @@ lab:
 
 # Manage meetings and collaboration with Microsoft Copilot
 
+## Scenario
+
 In this exercise, you use Microsoft Copilot to prepare for a project check-in meeting, capture and summarize what happens during the meeting, draft a follow-up email, and centralize the project's decisions in a shared page and notebook.
 
+By the end of this exercise, you'll be able to:
+
+- Use Copilot in Outlook to draft and create a meeting invite.
+- Use Copilot in Teams to capture and summarize a live meeting.
+- Use Copilot Chat to draft a follow-up grounded in a meeting recap.
+- Use Copilot Pages and Notebooks to centralize project decisions and references.
+
 This exercise should take approximately **25** minutes to complete.
+
+> **Tip**: This exercise is about getting comfortable using Copilot across Outlook, Teams, and the Microsoft Copilot app, not following steps exactly. You're encouraged to try your own prompts instead of typing the examples exactly as written. If you'd rather use a real project instead of the LaunchPad example, keep in mind later steps reference the LaunchPad name and details from earlier tasks, so you'll need to adjust the prompts to match.
 
 ## Before you start
 
@@ -22,7 +33,7 @@ You need:
 - A Microsoft 365 account with a Microsoft 365 Copilot license.
 - Access to Outlook, Teams, and Microsoft Copilot, either on the web or through the desktop apps.
 
-## Prepare for the meeting in Outlook
+## Task 1: Prepare for the meeting in Outlook
 
 You're leading a project check-in for a fictional initiative called LaunchPad, and you need a meeting invite ready to send.
 
@@ -35,7 +46,7 @@ You're leading a project check-in for a fictional initiative called LaunchPad, a
 1. Review the meeting details Copilot proposes, then select **Approve** to create the event on your calendar.
 1. Check your calendar to confirm the LaunchPad Project Check-In event was created at the time you specified.
 
-## Capture a live meeting with Copilot in Teams
+## Task 2: Capture a live meeting with Copilot in Teams
 
 Now you'll run the meeting you just scheduled and see how Copilot captures what happens in real time. Because you're completing this exercise on your own, you'll play both the host and the only attendee.
 
@@ -57,13 +68,13 @@ Now you'll run the meeting you just scheduled and see how Copilot captures what 
 
 > **Note**: Copilot requires a saved transcript to provide full meeting insights. If your organization's policy doesn't allow transcription, you can still complete the remaining tasks using the sample update above as reference text.
 
-## Review the meeting recap
+## Task 3: Review the meeting recap
 
 1. From the Teams calendar, open the meeting you just finished.
 1. Open the **Recap** tab in the meeting chat.
 1. Select **AI summary** to view the meeting notes and follow-up tasks Copilot generated.
 
-## Draft a follow-up with Copilot Chat
+## Task 4: Draft a follow-up with Copilot Chat
 
 With the recap ready, you need to let the wider LaunchPad team know what happened and what's next.
 
@@ -76,7 +87,7 @@ With the recap ready, you need to let the wider LaunchPad team know what happene
 
     `Convert the follow-up tasks list into a table with columns for task, owner, and due date.`
 
-## Build a shared project hub with Copilot Pages
+## Task 5: Build a shared project hub with Copilot Pages
 
 Instead of keeping the project's plan buried in email, you'll turn your follow-up into a shared page the whole team can refer back to.
 
@@ -88,7 +99,7 @@ Instead of keeping the project's plan buried in email, you'll turn your follow-u
 1. Review the generated page, confirming the payment integration blocker appears in the open questions or risks section.
 1. Your page saves automatically. To find it again later, select **Library** in the left navigation pane of Microsoft Copilot, then select **Pages**.
 
-## Centralize project knowledge with Copilot Notebooks
+## Task 6: Centralize project knowledge with Copilot Notebooks
 
 Finally, you'll bring your meeting recap and project data together in one place so anyone on the team can ask questions about the project's status.
 
@@ -106,4 +117,6 @@ Finally, you'll bring your meeting recap and project data together in one place 
 1. Review Copilot's response, grounded in the references you added.
 1. Optionally, select **Get audio overview** to generate a short spoken summary of the notebook's contents.
 
-You've used Copilot across Outlook, Teams, Copilot Chat, Pages, and Notebooks to prepare for a meeting, capture what happened, and centralize follow-up work so your team stays aligned without digging through separate apps.
+## Summary
+
+In this exercise, you used Copilot across Outlook, Teams, Copilot Chat, Pages, and Notebooks to prepare for a meeting, capture what happened, and centralize follow-up work so your team stays aligned without digging through separate apps. You practiced letting Copilot take direct action on your calendar, capturing and reviewing a live meeting recap, drafting a follow-up grounded in that meeting, and bringing project references together in a shared page and notebook.
