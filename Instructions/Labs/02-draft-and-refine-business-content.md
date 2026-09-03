@@ -18,6 +18,9 @@ This exercise should take approximately **20** minutes to complete.
 > [!TIP]
 > This exercise is about getting comfortable using Copilot, not following steps exactly. If you have a real document, presentation, or email you'd rather work with, use that instead of the Northwind Traders example. You're also encouraged to modify the example prompts or try your own instead of typing them exactly as written.
 
+> [!NOTE]
+> Some Copilot experiences apply changes directly to your document or presentation instead of showing a separate button to insert or add them. If a step doesn't show an expected button, check your document or presentation first, since Copilot may have already made the change for you.
+
 ## Before you start
 
 You need:

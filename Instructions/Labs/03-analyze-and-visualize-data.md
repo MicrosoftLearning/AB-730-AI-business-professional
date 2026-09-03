@@ -26,27 +26,27 @@ You need:
 
 1. Open Excel and create a new blank workbook.
 1. Import the data by opening the **Data** tab and selecting **From Text/CSV**, then select the `quarterly-sales-data.csv` file you downloaded.
-1. When prompted, confirm the data is formatted as a table.
+1. In the preview dialog that appears, leave the **File Origin**, **Delimiter**, and **Data Type Detection** settings at their defaults, then select **Load** to import the data as a table into a new worksheet.
 1. Save the workbook to OneDrive as `Quarterly Sales Analysis`.
+1. Select the Copilot icon to open the Copilot pane, then select **Edit with Copilot** near the bottom of the pane to turn on Edit with Copilot mode.
 
 > [!IMPORTANT]
-> Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range.
+> Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range. Keep **Edit with Copilot** turned on for the rest of this exercise—with it active, Copilot applies changes, such as new sheets and charts, directly to your workbook instead of asking you to add them.
 
 ## Find trends with Copilot in Excel
 
 Your manager asked you to identify how sales are trending across regions and products before a leadership review.
 
-1. Select the Copilot icon in the lower-right corner of Excel to open the Copilot pane.
-1. Enter the following prompt:
+1. In the Copilot pane, enter the following prompt:
 
     `Summarize total revenue by region and highlight the top-performing region.`
 
-1. Review the summary Copilot generates.
+1. Review the summary Copilot generates. Copilot adds the summary to a new sheet automatically since Edit with Copilot is active.
 1. Ask a follow-up question to dig deeper:
 
     `Compare units sold between Q1 and Q2 for each product.`
 
-1. Review the insights, then select **Add to a new sheet** for any chart or table you'd like to keep.
+1. Review the comparison Copilot generates. Copilot adds the product comparison to a new sheet automatically.
 
 ## Analyze customer feedback
 
@@ -79,29 +79,29 @@ Leadership wants a visual that's easy to scan during the review meeting.
 
     `Add data labels and sort the regions from highest to lowest revenue.`
 
-1. Select **Add to a new sheet** to place the finished chart in your workbook.
+1. Review the chart. Copilot adds it to your workbook automatically since Edit with Copilot is active.
 
 ## Build a formula with Copilot
 
 You want to calculate the average revenue per unit sold for each row, without writing the formula yourself.
 
 1. Select an empty column next to your data and select the first empty cell in that column.
-1. In the Copilot pane, select **Suggest a formula**, or enter the following prompt:
+1. In the Copilot pane, enter the following prompt:
 
-    `Calculate the average revenue per unit sold using the Revenue and UnitsSold columns.`
+    `Calculate the average revenue per unit sold for each row using the Revenue and UnitsSold columns.`
 
-1. Review the formula Copilot suggests, then apply it to the column.
+1. Review the column. Copilot adds the formula for every row automatically since Edit with Copilot is active.
 
 ## Generate a deeper report with the Analyst agent
 
 Your manager also wants a polished report that goes beyond a quick summary, including trends and recommendations you can share with the wider team.
 
 1. Open Microsoft Copilot at [https://copilot.cloud.microsoft](https://copilot.cloud.microsoft){:target="_blank"} (`https://copilot.cloud.microsoft`).
-1. Select **Analyst** from the left navigation pane.
-1. Select the **+** icon and attach your `Quarterly Sales Analysis` workbook from OneDrive.
+1. Select **Analyst** from the agent list.
+1. Select the **+** icon and attach your `Quarterly Sales Analysis` Excel workbook from OneDrive.
 1. Enter the following prompt:
 
-    `Highlight key trends in revenue and units sold by region and product. Identify any regions or products that need attention.`
+    `Highlight key trends in revenue and units sold by region and product between Q1 and Q2. Identify any regions or products with declining revenue or units sold, or negative customer feedback themes. Include supporting charts or tables.`
 
 1. Review the report the Analyst agent generates, including any charts or tables.
 1. Ask a follow-up question to refine the analysis:
