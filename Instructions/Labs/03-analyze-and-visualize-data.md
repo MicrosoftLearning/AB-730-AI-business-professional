@@ -31,17 +31,25 @@ This exercise should take approximately **20** minutes to complete.
 You need:
 
 - A Microsoft 365 account with a Microsoft 365 Copilot license.
-- Access to Excel on the web at [https://www.office.com](https://www.office.com){:target="_blank"} (`https://www.office.com`) or through the desktop app.
-- Access to Microsoft Copilot at [https://copilot.cloud.microsoft](https://copilot.cloud.microsoft){:target="_blank"} (`https://copilot.cloud.microsoft`).
-- The sample dataset for this exercise. Download [quarterly-sales-data.csv](https://raw.githubusercontent.com/MicrosoftLearning/AB-730-AI-business-professional/main/Allfiles/quarterly-sales-data.csv){:target="_blank"} from `https://raw.githubusercontent.com/MicrosoftLearning/AB-730-AI-business-professional/main/Allfiles/quarterly-sales-data.csv`.
+- Access to Excel on the web through [Microsoft 365](https://m365.cloud.microsoft.com) at `https://m365.cloud.microsoft.com` or through the desktop app.
+- Access to Microsoft Copilot [Microsoft Copilot](https://copilot.cloud.microsoft) at `https://copilot.cloud.microsoft`
+- The sample dataset for this exercise. Download [quarterly-sales-data.csv](https://raw.githubusercontent.com/MicrosoftLearning/AB-730-AI-business-professional/main/Allfiles/quarterly-sales-data.csv) from `https://raw.githubusercontent.com/MicrosoftLearning/AB-730-AI-business-professional/main/Allfiles/quarterly-sales-data.csv`. Press Ctrl+S to save the CSV file.
 
 1. Open Excel and create a new blank workbook.
-1. Import the data by opening the **Data** tab and selecting **From Text/CSV**, then select the `quarterly-sales-data.csv` file you downloaded.
-1. In the preview dialog that appears, leave the **File Origin**, **Delimiter**, and **Data Type Detection** settings at their defaults, then select **Load** to import the data as a table into a new worksheet.
-1. Save the workbook to OneDrive as `Quarterly Sales Analysis`.
-1. Select the Copilot icon to open the Copilot pane, then select **Edit with Copilot** near the bottom of the pane to turn on Edit with Copilot mode.
 
-> **Important**: Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range. Keep **Edit with Copilot** turned on for the rest of this exercise—with it active, Copilot applies changes, such as new sheets and charts, directly to your workbook instead of asking you to add them.
+1. Import the data by opening the **Data** tab and selecting **Get Data** > **Get Data...** > **From Text/CSV**, then select **Upload file** and choose the `quarterly-sales-data.csv` file you downloaded.
+
+1. Select **Next**.
+
+1. In the **Preview file data** dialog that appears, leave the **File Origin**, **Delimiter**, and **Data Type Detection** settings at their defaults, then select **Transform data** to import the data as a table into a new worksheet.
+
+1. Close the **Power Query Editor** and select **Save** to return to the main Excel window.
+
+1. Save the workbook to OneDrive as `Quarterly Sales Analysis`.
+
+1. Select the Copilot icon on the bottom right to open the Copilot pane, select the mode dropdown, and then choose **Allow editing** so Copilot can apply changes directly to your workbook.
+
+> **Important**: Copilot in Excel can only work with files saved on OneDrive, and your data must be formatted as a table or a supported range. Keep **Allow editing** selected for the rest of this exercise, as Copilot applies changes, such as new sheets and charts, directly to your workbook instead of asking you to add them.
 
 ## Task 1: Find trends with Copilot in Excel
 
@@ -49,27 +57,37 @@ Your manager asked you to identify how sales are trending across regions and pro
 
 1. In the Copilot pane, enter the following prompt:
 
-    `Summarize total revenue by region and highlight the top-performing region.`
+    ```prompt
+    Summarize total revenue by region and highlight the top-performing region. Create a new worksheet and add the summary to it.
+    ```
 
-1. Review the summary Copilot generates. Copilot adds the summary to a new sheet automatically since Edit with Copilot is active.
-1. Ask a follow-up question to dig deeper:
+1. Review the summary Copilot generates. Verify the summary has been added to a new sheet.
 
-    `Compare units sold between Q1 and Q2 for each product.`
+1. Return to the worksheet that contains the quarterly sales data. In the Copilot pane, enter the following prompt to explore the data further:
 
-1. Review the comparison Copilot generates. Copilot adds the product comparison to a new sheet automatically.
+    ```prompt
+    Compare units sold between Q1 and Q2 for each product. Create a new worksheet and add the comparison to it.
+    ```
+
+1. Review the comparison Copilot generates. Copilot adds the product comparison to a new sheet.
 
 ## Task 2: Analyze customer feedback
 
 The dataset includes a column of written customer feedback. Instead of reading each comment individually, you'll ask Copilot to identify recurring themes.
 
-1. In the Copilot pane, enter the following prompt:
+1. Return to the worksheet that contains the quarterly sales data. In the Copilot pane, enter the following prompt:
 
-    `Review the CustomerFeedback column and identify the major themes.`
+    ```prompt
+    Review the CustomerFeedback column and identify the major themes.
+    ```
 
-1. Review the themes Copilot identifies, such as comments about sizing, durability, or shipping.
-1. Ask Copilot to label the sentiment of each comment:
+1. Review the themes Copilot identifies, such as comments about sizing, durability, or shipping. Copilot may add this analysis to a new sheet.
 
-    `Analyze the CustomerFeedback column and label each row by sentiment.`
+1. Select the quarterly sales data worksheet, then ask Copilot to label the sentiment of each comment:
+
+    ```prompt
+    Analyze the CustomerFeedback column and label each row by sentiment.
+    ```
 
 1. Review the new labeled column Copilot inserts.
 
@@ -81,45 +99,65 @@ Leadership wants a visual that's easy to scan during the review meeting.
 
 1. In the Copilot pane, enter the following prompt:
 
-    `Create a bar chart showing total revenue by region.`
+    ```prompt
+    Create a bar chart showing total revenue by region. Add it to a new worksheet.
+    ```
 
-1. Review the chart Copilot generates.
+1. Review the chart Copilot generates in the new worksheet.
+
 1. Refine the chart with a follow-up prompt:
 
-    `Add data labels and sort the regions from highest to lowest revenue.`
+    ```prompt
+    Add data labels and sort the regions from highest to lowest revenue.
+    ```
 
-1. Review the chart. Copilot adds it to your workbook automatically since Edit with Copilot is active.
+1. Review the refined chart.
 
 ## Task 4: Build a formula with Copilot
 
 You want to calculate the average revenue per unit sold for each row, without writing the formula yourself.
 
 1. Select an empty column next to your data and select the first empty cell in that column.
+
 1. In the Copilot pane, enter the following prompt:
 
-    `Calculate the average revenue per unit sold for each row using the Revenue and UnitsSold columns.`
+    ```prompt
+    Calculate the average revenue per unit sold for each row using the Revenue and UnitsSold columns.
+    ```
 
-1. Review the column. Copilot adds the formula for every row automatically since Edit with Copilot is active.
+1. Review the column. Copilot adds the formula for every row automatically since **Allow editing** is selected. 
+
+1. Select **Done** when finished.
 
 ## Task 5: Generate a deeper report with the Analyst agent
 
 Your manager also wants a polished report that goes beyond a quick summary, including trends and recommendations you can share with the wider team.
 
-1. Open Microsoft Copilot at [https://copilot.cloud.microsoft](https://copilot.cloud.microsoft){:target="_blank"} (`https://copilot.cloud.microsoft`).
-1. Select **Analyst** from the agent list.
+1. Open Microsoft Copilot at [Microsoft Copilot](https://copilot.cloud.microsoft) at `https://copilot.cloud.microsoft`.
+
+1. In the left navigation pane, select **Analyst** from the list of Pinned agents.
+
 1. Select the **+** icon and attach your `Quarterly Sales Analysis` Excel workbook from OneDrive.
+
 1. Enter the following prompt:
 
-    `Highlight key trends in revenue and units sold by region and product between Q1 and Q2. Identify any regions or products with declining revenue or units sold, or negative customer feedback themes. Include supporting charts or tables.`
+    ```prompt
+    Highlight key trends in revenue and units sold by region and product between Q1 and Q2. Identify any regions or products with declining revenue or units sold, or negative customer feedback themes. Include supporting charts or tables.
+    ```
 
 1. Review the report the Analyst agent generates, including any charts or tables.
+
 1. Ask a follow-up question to refine the analysis:
 
-    `Which product had the most negative customer feedback themes, and how does that align with its sales trend?`
+    ```prompt
+    Which product had the most negative customer feedback themes, and how does that align with its sales trend?
+    ```
 
 1. Ask the agent to prepare the output for your audience:
 
-    `Summarize these findings into three bullet points for a leadership slide.`
+    ```prompt
+    Summarize these findings into three bullet points for a leadership slide.
+    ```
 
 ## Summary
 
