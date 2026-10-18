@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Plan a client summit with Copilot Chat'
-    description: 'Use Copilot Chat to research trends, brainstorm sessions, visualize an agenda, draft a planning document, and collaborate in Copilot Pages.'
+    title: 'Plan a client summit with Microsoft Copilot Chat'
+    description: 'Use Microsoft Copilot Chat to research trends, brainstorm sessions, visualize an agenda, draft a planning document, and collaborate in Copilot Pages.'
     duration: 30
     level: 100
     islab: true
@@ -9,7 +9,7 @@ lab:
     targetDate: '2027-03-01'
 ---
 
-# Plan a client summit with Copilot Chat
+# Plan a client summit with Microsoft Copilot Chat
 
 ## Scenario
 
@@ -27,8 +27,6 @@ This exercise should take approximately **30** minutes to complete.
 
 > **Tip**: This exercise is about getting comfortable using Copilot Chat, not following steps exactly. If you have a real event or project you'd rather plan, use that instead of the Client Innovation Summit example. You're also encouraged to modify the example prompts or try your own instead of typing them exactly as written.
 
-> **Note**: These tasks are designed specifically to use web-based information in Microsoft Copilot. If you have a Microsoft 365 Copilot license, make sure you manually turn off **Work IQ** when you open Copilot Chat, as it may be enabled by default. Doing so ensures that prompts behave as intended and source information from public web content.
-
 ## Before you start
 
 You need:
@@ -36,13 +34,15 @@ You need:
 - A Microsoft 365 tenant account with access to Copilot Chat (credentials provided by your tenant provider for this exercise).
 - Access to a virtual machine provided by your tenant provider.
 
-To get started, log into your virtual machine and launch the Microsoft Copilot web app:
+> **Note**: These tasks are designed to use public web content rather than broadly grounded organizational data. If **Work IQ** is available, turn it off before you begin. Work IQ availability and its default state depend on your license tier and your organization's settings. If the Work IQ control isn't available, no action is required.
+
+To get started, sign in to your virtual machine and open the Microsoft Copilot web app:
 
 1. Log into the virtual machine provided by your tenant provider as the local **Administrator** account with the password `Pa55w.rd`.
    
 1. In the Windows taskbar, select **Microsoft Edge**.
    
-1. To launch Microsoft Copilot, enter `https://copilot.cloud.microsoft` in the address bar and select **Sign in**.
+1. To open Microsoft Copilot, enter `https://copilot.cloud.microsoft` in the address bar and select **Sign in**.
    
 1. On the **Sign-in** screen, enter userx@yourtenant.onmicrosoft.com (provided by your tenant provider) and select **Next**.
    
@@ -52,7 +52,7 @@ To get started, log into your virtual machine and launch the Microsoft Copilot w
    
 1. Skip any welcome messages if they appear.
    
-1. The Microsoft Copilot web app should launch successfully.
+1. The Microsoft Copilot web app opens.
 
 You're ready to begin Task 1.
 
@@ -201,4 +201,4 @@ Create a checklist of what I learned today using Copilot Chat and how I can appl
 
 ## Summary
 
-In this exercise, you used Copilot Chat to research industry trends, brainstorm session ideas, visualize an agenda timeline, generate a logo, draft and export a planning document, summarize a file into key points, draft a follow-up email, and collaborate on a shared page with Copilot Pages. You practiced navigating between different Copilot experiences and refining prompts to move a project from initial research through to a shareable output.
+In this exercise, you used Microsoft Copilot Chat to research industry trends, brainstorm session ideas, visualize an agenda timeline, generate a logo, draft and export a planning document, summarize a file into key points, draft a follow-up email, and collaborate on a shared page with Copilot Pages. You practiced navigating between different Copilot experiences and refining prompts to move a project from initial research through to a shareable output.
